@@ -11,7 +11,10 @@ categories:
 - Linux
 ---
 
-```bash
+```java
 
-cd /mnt/home
+class A{
+
+private int i;
+}
 ```
