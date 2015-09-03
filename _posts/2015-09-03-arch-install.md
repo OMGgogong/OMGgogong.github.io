@@ -11,10 +11,8 @@ categories:
 - Linux
 ---
 
-```java
+{% highlight bash %}
+blsk
+fdisk /dev/sda
 
-class A{
-
-private int i;
-}
-```
+{% endhighlight %}
