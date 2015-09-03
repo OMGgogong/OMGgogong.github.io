@@ -29,13 +29,13 @@ compress_html:
 # Links to include in menu navigation
 # For external links add external: true
 links:
-  - title: Home
+  - title: 首页
     url: /
-  - title: Series
+  - title: 分类
     url: /series
-  - title: Tags
+  - title: 标签
     url: /tags
-  - title: About Me
+  - title: 关于
     url: /about
 
 # exclude my node related stuff
