@@ -4,7 +4,7 @@ baseurl: "" # the subpath of your site, e.g. /blog/
 url: "http://OMGgogong.github.io" # the base hostname & protocol for your site 
 
 # User settings
-username: OMGgogong's Technical Blog
+username: OMGgogong's Blog
 user_description: Anon Developer at Lorem Ipsum Dolor
 user_title: Technical Developer
 email: effectivejava@163.com
