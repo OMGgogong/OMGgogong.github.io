@@ -25,5 +25,5 @@ email: anon@anon.com
 twitter_username: lorem_ipsum
 github_username:  lorem_ipsum
 gplus_username:  lorem_ipsum
-disqus_username: lorem_ipsum
+disqus_username: lorem_ipsumdsd
 {% endhighlight %}
