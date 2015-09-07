@@ -217,3 +217,4 @@ public class AnonymouseInnerClass
     }
 }
 {% endhighlight %}
+##2.什么是内部类？Static Nested Class 和 Inner Class 的不同。？
