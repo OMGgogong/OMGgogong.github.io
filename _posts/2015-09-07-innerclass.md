@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "内部类-java基础"
-date: 2015-09-03 15:32:44
+date: 2015-09-07 15:32:44
 image: '/assets/img/'
 description: 'java基础 - 五组'
 tags:
@@ -217,4 +217,4 @@ public class AnonymouseInnerClass
     }
 }
 {% endhighlight %}
-##2.什么是内部类？Static Nested Class 和 Inner Class 的不同。？
+**今天学的知识比较多，就不再多写东西了**
