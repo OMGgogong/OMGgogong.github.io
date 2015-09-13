@@ -38,17 +38,17 @@ comparable/comparator
 - 同步性： Vector 是线程安全的，也就是说是它的方法之间是线程同步的，而 ArrayList 是线程 序不安全的，它的方法之间是线程不同步的。如果只有一个线程会访问到集合，那最好是使 用 ArrayList，因为它不考虑线程安全，效率会高些；如果有多个线程会访问到集合，那最好 是使用 Vector，因为不需要我们自己再去考虑和编写线程安全的代码。 备注：对于 Vector&ArrayList、Hashtable&HashMap，要记住线程安全的问题
  - 数据增长： ArrayList 与 Vector 都有一个初始的容量大小，当存储进它们里面的元素的个数超过 了容量时，就需要增加 ArrayList 与 Vector 的存储空间，每次要增加存储空间时，不是只增 加一个存储单元， 而是增加多个存储单元， 每次增加的存储单元的个数在内存空间利用与程 序效率之间要取得一定的平衡。Vector 默认增长为原来两倍，而 ArrayList 的增长策略在文档 中没有明确规定（从源代码看到的是增长为原来的 1.5 倍） 。ArrayList 与 Vector 都可以设置 初始的空间大小，Vector 还可以设置增长的空间大小，而 ArrayList 没有提供设置增长空间的 方法。 总结：即 Vector 增长原来的一倍，ArrayList 增加原来的 0.5 倍。 
 
- ##4.HashMap 和 Hashtable 的区别？
+##4.HashMap 和 Hashtable 的区别？
 
  hashnap 线程不安全 key值可以为空 有containsValue和containsKey方法代替contains方法
 
  hashtable 线程安全的 key不允许为空 有contains方法
 
- ##5.List, Set, Map 是否继承自 Collection 接口? 
+##5.List, Set, Map 是否继承自 Collection 接口? 
 
  List，Set 是，Map 不是 
 
- ##6.去掉一个 Vector 集合中重复的元素
+##6.去掉一个 Vector 集合中重复的元素
 
  {% highlight java %}
     HashSet set = new HashSet(vector);
@@ -73,7 +73,7 @@ Map 提供了一个更通用的元素存储方法。 Map 集合类用于存储�
 
  hashcode，当然，我们没有理由不实 现，通常都会去实现的。
 
- ##10.说出一些常用的类，包，接口，请各举 5 个?
+##10.说出一些常用的类，包，接口，请各举 5 个?
 
 要让人家感觉你对 java ee 开发很熟，所以，不能仅仅只列 core java 中的那些东西，要多列 你在做 ssh 项目中涉及的那些东西。
 
